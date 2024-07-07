@@ -36,7 +36,7 @@ namespace DoAnWinform.Models
 
         [StringLength(50)]
         public string SoGioDat { get; set; }
-
+        public string a {  get; set; }
         [Required]
         [StringLength(50)]
         public string TongTien { get; set; }
